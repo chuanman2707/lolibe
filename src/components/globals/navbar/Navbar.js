@@ -11,7 +11,7 @@ export default class Navbar extends Component {
   //   this function is used for hamburger menu
   handleNavbar = () => {
     this.setState(() => {
-      return { navbarOpen: this.state.navbarOpen }
+      return { navbarOpen: !this.state.navbarOpen }
     })
   }
   render() {
