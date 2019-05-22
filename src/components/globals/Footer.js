@@ -80,6 +80,6 @@ const FooterWrapper = styled.footer`
     text-align: center;
     color: ${styles.colors.mainYellow};
     font-size: 1.5rem;
-    ${styles.border({})};
+    ${styles.border({ color: `${styles.colors.mainYellow}` })};
   }
 `
